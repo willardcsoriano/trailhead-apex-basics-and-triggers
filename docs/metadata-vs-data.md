@@ -108,3 +108,18 @@ deployed between environments.
 | Does deploying overwrite data? | No. Metadata deploys never touch records |
 | Does retrieving pull records? | No. `sf project retrieve start` pulls only metadata |
 | How do I back up data? | Data Export, `sf data export`, or custom Apex scripts |
+
+---
+
+## 5. Are There Other Categories?
+
+Metadata and data cover roughly 95% of what's in an org. Two borderline
+cases are worth knowing about:
+
+| Category | Examples | Behaviour |
+|----------|----------|-----------|
+| **Files** | `ContentVersion`, `Attachment`, `Document` | Stored as data records but contain binary blobs (PDFs, images). Retrieved as data, not metadata. |
+| **Setup objects** | `User`, `Profile`, `Organization` | Straddle the line. Users are data records. Profiles are metadata. The `User` object itself is metadata; individual user rows are data. |
+
+For the purposes of this repository: if `sf project retrieve start` pulls
+it, it is metadata. Everything else is data or files.
