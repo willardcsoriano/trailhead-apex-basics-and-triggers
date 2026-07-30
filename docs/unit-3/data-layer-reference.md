@@ -296,6 +296,10 @@ map to everyday CLI workflows.
 
 ### 8.2 Common commands
 
+Every `sf data` command translates to the corresponding Apex primitive
+under the hood: `sf data query` sends SOQL, `sf data search` sends SOSL,
+and `sf data create/update/delete record` issues DML.
+
 | Task | Command |
 |------|---------|
 | Deploy all Apex classes | `sf project deploy start -d force-app -o trailhead-playground` |
