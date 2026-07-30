@@ -325,3 +325,18 @@ from different angles. Choose whichever is faster:
 The division: CLI for inspection, Anonymous Apex for experimentation. Both
 interact with the same org; neither replaces the other.
 
+### 8.4 Saving Anonymous Apex snippets
+
+Anonymous Apex is not saved by the org, but developers commonly store
+reusable snippets in the repository under `docs/` as Markdown code blocks.
+This gives you:
+
+- Repeatable test scripts (see `docs/unit-1/step-by-step.md` for an
+  example — the same Anonymous Apex block validated all 10 variations)
+- Data-fix scripts that can be audited and reviewed
+- A historical record of what was run against the org
+
+They are never deployed. They are copied into the Dev Console (Ctrl+E) and
+executed manually. But they live in git, so they survive browser crashes,
+laptop replacements, and team turnover.
+
