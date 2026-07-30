@@ -121,6 +121,10 @@
         <visible>true</visible>
     </applicationVisibilities>
     <classAccesses>
+        <apexClass>AccountHandler</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>StringListTest</apexClass>
         <enabled>true</enabled>
     </classAccesses>
