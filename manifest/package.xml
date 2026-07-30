@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AccountHandler</members>
+        <members>ContactSearch</members>
         <members>StringListTest</members>
         <members>StringListVariations</members>
         <members>StringListVariationsTest</members>

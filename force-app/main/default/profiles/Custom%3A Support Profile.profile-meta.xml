@@ -125,6 +125,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContactSearch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>StringListTest</apexClass>
         <enabled>false</enabled>
     </classAccesses>
