@@ -84,7 +84,9 @@ List<Contact> found = ContactSearch.searchForContacts('TestSearch', '00001');
 
 // Verify exactly one result was returned.
 System.assertEquals(1, found.size(), 'Should find exactly 1 contact');
-System.assertEquals('TestSearch', found[0].LastName, 'Last name should match');
+// The SOQL only returns Id and Name, so we check Name (a compound field).
+System.assert(found[0].Name.contains('TestSearch'), 'Name should contain TestSearch');
+System.assertNotEquals(null, found[0].Id, 'Should have an ID');
 System.assertNotEquals(null, found[0].Id, 'Should have an ID');
 
 // Step 3: Search with a postal code that should return nothing.
