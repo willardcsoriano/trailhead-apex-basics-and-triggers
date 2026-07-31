@@ -23,10 +23,10 @@ This repository tracks Salesforce org metadata and documentation for two Trailhe
 
 | Unit | Guide |
 |------|-------|
-| 1 | [step-by-step.md](docs/unit-1/step-by-step.md) · [blocker-log.md](docs/unit-1/blocker-log.md) |
-| 3 | [data-layer-reference.md](docs/unit-3/data-layer-reference.md) · [account-handler.md](docs/unit-3/account-handler.md) |
-| 4 | [contact-search.md](docs/unit-4/contact-search.md) |
-| 5 | [contact-and-lead-search.md](docs/unit-5/contact-and-lead-search.md) |
+| 1 | [step-by-step.md](docs/badge-8-apex-basics/unit-1/step-by-step.md) · [blocker-log.md](docs/badge-8-apex-basics/unit-1/blocker-log.md) |
+| 3 | [data-layer-reference.md](docs/badge-8-apex-basics/unit-3/data-layer-reference.md) · [account-handler.md](docs/badge-8-apex-basics/unit-3/account-handler.md) |
+| 4 | [contact-search.md](docs/badge-8-apex-basics/unit-4/contact-search.md) |
+| 5 | [contact-and-lead-search.md](docs/badge-8-apex-basics/unit-5/contact-and-lead-search.md) |
 
 ### Foundational Docs
 
