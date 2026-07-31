@@ -2,6 +2,7 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>AccountHandler</members>
+        <members>ContactAndLeadSearch</members>
         <members>ContactSearch</members>
         <members>StringListTest</members>
         <members>StringListVariations</members>
@@ -11,6 +12,10 @@
     <types>
         <members>apexEmailNotifications</members>
         <name>ApexEmailNotifications</name>
+    </types>
+    <types>
+        <members>HelloWorldTrigger</members>
+        <name>ApexTrigger</name>
     </types>
     <types>
         <members>AppSwitcher</members>

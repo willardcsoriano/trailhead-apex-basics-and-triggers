@@ -125,6 +125,10 @@
         <enabled>false</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContactAndLeadSearch</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ContactSearch</apexClass>
         <enabled>false</enabled>
     </classAccesses>
