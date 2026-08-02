@@ -19,6 +19,7 @@
         <members>AccountAddressTrigger</members>
         <members>AccountDeletion</members>
         <members>AddRelatedRecord</members>
+        <members>ClosedOpportunityTrigger</members>
         <members>ContactNotificationTrigger</members>
         <members>HelloWorldTrigger</members>
         <name>ApexTrigger</name>

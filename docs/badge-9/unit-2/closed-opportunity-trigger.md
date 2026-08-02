@@ -1,6 +1,6 @@
 # Badge 9 Unit 2 — Closed Opportunity Trigger
 
-> **Status: Pending** — Challenge not yet submitted.
+> **Status: Passed** — Challenge checked and approved by Trailhead.
 
 ## Challenge
 
