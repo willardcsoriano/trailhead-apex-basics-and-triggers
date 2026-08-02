@@ -3,7 +3,9 @@
     <types>
         <members>AccountHandler</members>
         <members>ContactAndLeadSearch</members>
+        <members>ContactNotificationTrigger</members>
         <members>ContactSearch</members>
+        <members>CustomContactNotification</members>
         <members>StringListTest</members>
         <members>StringListVariations</members>
         <members>StringListVariationsTest</members>
@@ -14,6 +16,9 @@
         <name>ApexEmailNotifications</name>
     </types>
     <types>
+        <members>AccountDeletion</members>
+        <members>AddRelatedRecord</members>
+        <members>ContactNotificationTrigger</members>
         <members>HelloWorldTrigger</members>
         <name>ApexTrigger</name>
     </types>
@@ -103,6 +108,10 @@
     <types>
         <members>CustomLabels</members>
         <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>New_Contact_Notification</members>
+        <name>CustomNotificationType</name>
     </types>
     <types>
         <members>Account</members>
