@@ -434,4 +434,11 @@
         </notificationChannels>
         <notificationType>wave_condition</notificationType>
     </notificationTypeSettings>
+    <notificationTypeSettings>
+        <notificationChannels>
+            <desktopEnabled>true</desktopEnabled>
+            <mobileEnabled>false</mobileEnabled>
+        </notificationChannels>
+        <notificationType>New_Contact_Notification</notificationType>
+    </notificationTypeSettings>
 </NotificationTypeConfig>
