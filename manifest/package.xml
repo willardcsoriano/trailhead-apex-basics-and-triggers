@@ -16,6 +16,7 @@
         <name>ApexEmailNotifications</name>
     </types>
     <types>
+        <members>AccountAddressTrigger</members>
         <members>AccountDeletion</members>
         <members>AddRelatedRecord</members>
         <members>ContactNotificationTrigger</members>
@@ -80,6 +81,7 @@
     <types>
         <members>Account.Active__c</members>
         <members>Account.CustomerPriority__c</members>
+        <members>Account.Match_Billing_Address__c</members>
         <members>Account.NumberofLocations__c</members>
         <members>Account.SLAExpirationDate__c</members>
         <members>Account.SLASerialNumber__c</members>
